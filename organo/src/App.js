@@ -1,5 +1,6 @@
 import Banner from "./Componentes/Banner";
 import Formulario from "./Componentes/Formulario";
+import ListaSuspensa from "./Componentes/ListaSuspensa";
 
 function App() {
   
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
       <Banner/>
       <Formulario/>
+      <ListaSuspensa/>
     </div>
   );
 }

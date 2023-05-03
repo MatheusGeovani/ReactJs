@@ -1,5 +1,6 @@
 import Banner from "./Componentes/Banner";
 import Formulario from "./Componentes/Formulario";
+import Time from "./Componentes/Time";
 
 
 function App() {
@@ -9,7 +10,8 @@ function App() {
     <div className="App">
       <Banner/>
       <Formulario/>
-      
+      <Time nome="Programação"/>
+      <Time nome="Qualidade"/>
     </div>
   );
 }
